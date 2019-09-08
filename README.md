@@ -1,1 +1,0 @@
-# cruz.ramirez.jesus.osmar

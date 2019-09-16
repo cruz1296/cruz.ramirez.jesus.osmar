@@ -1,0 +1,206 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+EV_1_5_CARACTERISTICAS_DE_LOS_CONVERTIDORES_DE_POTENCIA_CA-CD,CD-CA,CA-CA_Y_CD-C
+D
+\end_layout
+
+\begin_layout Author
+CRUZ RAMIREZ JESUS OSMAR
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+UNIVERSIDAD POLITECNICA DE LA ZONA METROPOLITANA DE GUADALAJARA, (UPzmg).
+\end_layout
+
+\begin_layout Standard
+ING.
+ MECATRONICA.
+ 
+\end_layout
+
+\begin_layout Section*
+CA-CD
+\end_layout
+
+\begin_layout Standard
+El convertidor de corriente alterna a corriente directa viene de un rectificador
+ de ondas compuestas, los convertidores de CA-CD, esteproduce una señal
+ de salida rectificada.
+\end_layout
+
+\begin_layout Section*
+CD-CA 
+\end_layout
+
+\begin_layout Standard
+Dispositivo que transforma energia en corriente directa en energia alterna,
+ para la transformacion de energia, los convertidores son construidos en
+ la actualidad con dispositivos semi-conductores.
+ depende de la fuerza de alimentacion en el circuito de pontecia, estos
+ convertidores CD-CA, son clasificados como: 
+\end_layout
+
+\begin_layout Itemize
+Inversores fuente de tension (VSI)
+\end_layout
+
+\begin_layout Itemize
+Inversores fuente de corriente (CSI)
+\end_layout
+
+\begin_layout Standard
+Las frecuencias de salida en los convertidores CD-CA, VSI, Esta determinado
+ por los estados de corte y conduccion de los dispositivos, 
+\end_layout
+
+\begin_layout Standard
+los inversores CSI, basicamente consisten en un rectificador controlado
+ por fases
+\end_layout
+
+\begin_layout Standard
+las ventajas de los CSI sobre los VSI, es la habilidad que se tiene de controlar
+ fallas los conmutaciones y regresar naturalmente a su opereacion normal.
+\end_layout
+
+\begin_layout Section*
+CD-CD
+\end_layout
+
+\begin_layout Standard
+Muchas aplicaciones industriales es necesario el convertir una fuente de
+ poder de corriente directa de voltaje fijo a una fuente de corriente directa
+ se utiliza ampliamente en control de los motores de traccion de automoviles
+ eletricos, tranvias electricos, gruas marinas, montacargas y elevadores
+ de minas.
+\end_layout
+
+\begin_layout Standard
+El convertidor reductor elevador o tambien conocido como buck-boos sumoinistra
+ un voltaje de salida que pueden ser mayor o menor al de la entrada.
+ 
+\end_layout
+
+\begin_layout Standard
+Son de herramientas de la electronica de potencia, con estos se alcanza
+ altas ganacias de voltaje y son usados para llevar a cabo las generaciones
+ de energias con fuentes renovables clasisficacion de convertidores CD-CD.
+ 
+\end_layout
+
+\begin_layout Standard
+se clasifican en aislados y no aislados, la ventaja principal que presentan
+ los primeros que es fuente aisladas de carga la desventaja es la cantidad
+ de energia que puedan manejar debido al elemneto magnetico que se encarga
+ de transferir directo la energia de la fuente hacia la carga.
+ 
+\end_layout
+
+\begin_layout Standard
+se puede modificar el convertidor CD-CD, aislados a no aislados conservando
+ ciertas caracteristicas como la realcion de vueltas del transformador en
+ la mejora del rendimiento del convertidor CD-CD, ahi una configuracion
+ que intercala y este permite transferir energia de la fuente hacia la carga.
+\end_layout
+
+\begin_layout Section*
+CA-CA 
+\end_layout
+
+\begin_layout Standard
+reguladores de tension alterna y las que permiten obtener una salida de
+ frecuencia distinta en el presente en la entrada en los ciclo convertidores
+ Se realiza la conversion CA-CA de forma directa y sin etapa intermadia
+ de continua, los tiristores no necesitan bloqueo forazado gracias al paso
+ natural por cero de la intensidad proporciona una tension de frecuencia
+ fundamental menor o igual que la frecuencia de tension de entrada.
+ 
+\end_layout
+
+\begin_layout Standard
+permite realizar una cinversion directa CA-CA tanto en permite realizar
+ una conversion directa CA-CA tanto en amplitud como en frecuencia sin paso
+ intermdio por CC y tienen funcionamiento en cuatro cuadrantes, este puede
+ funcionar tanto en cargas pasivas como cargas negativas y para cualquier
+ factor de potencia.
+\end_layout
+
+\end_body
+\end_document

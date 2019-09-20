@@ -1,0 +1,282 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+EV_1_1_CIRCUITOS_DE RECTIFICACION_NO_CONTROLADOS
+\end_layout
+
+\begin_layout Itemize
+PARTIDA LOPEZ ERNESTO ALONSO
+\end_layout
+
+\begin_layout Itemize
+CRUZ RAMIREZ JESUS OSMAR
+\end_layout
+
+\begin_layout Address
+UNIVERSIDAD POLITECNICA DE LA ZONA METROPOLITANA DE GUADALAJARA.
+ (UPzmg)
+\end_layout
+
+\begin_layout Section*
+Introduccion 
+\end_layout
+
+\begin_layout Standard
+Las conversiones de corriente alterna y corriente directa juegan un papel
+ muy importante en el campo de la electronica y de electricidad.
+ Esto genera necesidades de araigar caracteristicas en redes electricas
+ que esta es la principal fuente de energia que utilizamos actualmente.
+ 
+\end_layout
+
+\begin_layout Standard
+En los dispositivos electronicos que utilizamos a diario requiere controlar
+ el nivel de etnsion continua en la salida del rectificador, los encontramos
+ en dos clasificaciones: 
+\end_layout
+
+\begin_layout Itemize
+rectificadores no controlados 
+\end_layout
+
+\begin_layout Itemize
+rectifiacadores controlados 
+\end_layout
+
+\begin_layout Standard
+Los rectificadores no controlados utilizan diodos como un dispositivo semiconduc
+tor que permite adquirir una tension de salida con valor medio constante,
+ en estos es mas utilizado por su simplicidad y aparece en la primera seccion
+ de la fuente de alimentacion.
+ 
+\end_layout
+
+\begin_layout Standard
+los rectificadores controlados estos utilizan tiristores como dispositivo
+ semiconductor, la principal caracteristicas es controlar a voluntad la
+ tension de salida del rectificador.
+ 
+\end_layout
+
+\begin_layout Itemize
+RECTIFICADOR DE MEDIA ONDA CARGA INDUCTIVA 
+\end_layout
+
+\begin_layout Standard
+En estos circuitos consiste en una fuente alterna de entrada un diodo, resistenc
+ia y inductor, estos asocian al apartado de rectificadores no controlados
+ los objetivos son: 
+\end_layout
+
+\begin_layout Enumerate
+analisis de circuitos
+\end_layout
+
+\begin_layout Enumerate
+obtencion de graficas de tension e intensidad para posterior analisis 
+\end_layout
+
+\begin_layout Standard
+los nodos de tension rectificado se observo que esta es nula y esto indica
+ que el diodo rectificador permanece polarizado, el semi-periodo es negativo.
+\end_layout
+
+\begin_layout Itemize
+RECTIFICADOR MONOFASICO EN PUENTE
+\end_layout
+
+\begin_layout Standard
+Estudiamos las ondas, su funcionamiento y eleccion de dispositivos semiconductor
+es los cuales utilizaremos diodos.
+\end_layout
+
+\begin_layout Standard
+las siguientes señales estaban a 164v y esto fue nuestro valor pico pico
+ (Vpp), esto viene siendo la tension de salida del rectificador, posteriormente
+ cambiamos los valores de resistencias a 1, 10 y 100 ohms.
+ estos mismos hacen consumos muy diferentes.
+ 
+\end_layout
+
+\begin_layout Standard
+el factor de potencia bajo, lo que da entender que absorbe una cantidad
+ considerable de potencia este desfase no es el factor de pontencia y nuestra
+ fase fue nulo la potencia que se absorbio es la distorcion de corrientes.
+ 
+\end_layout
+
+\begin_layout Standard
+los resultados adquiridos que arrojo el factor de potencia fue practicamente
+ invariable, nuestro factor de potencia en general, cuanto es menor la resistenc
+ia de esta viene siendo mayor y para esta tiene que se mayor nuestra potencia.
+\end_layout
+
+\begin_layout Itemize
+RECTIFICADOR MONOFASICO DUPLICADOR DE TENSION 
+\end_layout
+
+\begin_layout Standard
+Estas permiten la salida de tension que salga la hace al doble de la que
+ se adquiere del circuito anterior con esto se consigue tensiones elevadas
+ y esto sin usar un transformador que aumente la tension.
+ 
+\end_layout
+
+\begin_layout Itemize
+EFECTOS DE LOS RECTIFICADORES MONOFASICOS EN LINEAS TRIFASICAS 
+\end_layout
+
+\begin_layout Standard
+Equilibramos el consumo de los receptores hicimos repartimientos iguales
+ entre positivos y negatvos, el conjunto de receptores monofasicos van conectado
+s a cada fase y neutro de las instalacion, 
+\end_layout
+
+\begin_layout Standard
+en la simulacion de nuestro circuito observamos un valor pico (Vp), con
+ un espacio muestro y este se vuelve el valor negativo y por este de lado
+ positivo pasa una linea que marca el valor eficaz de cada onda cerca de
+ su valor pico (Vp).
+ 
+\end_layout
+
+\begin_layout Standard
+la suma de las corrientes los cuales son tres estas no son nulas y el valor
+ de una corriente neutro es superior a una corriente de linea.
+\end_layout
+
+\begin_layout Itemize
+RECTIFICADORES TRIFASICOS 
+\end_layout
+
+\begin_layout Standard
+los receptores electricos en el circuito se utilizan trifasicos cuando la
+ potencia es elevada y estos provocan que no esten equilibrados los consumos
+ de fases algunos ejemplos de estos son: motores electricos de gran potecia.
+ las ondas que obtuvimos fueron de ondas con valor pico (Vp), de 13.5 v,
+ cuando entra la corriente rectificadora fueron 2 ondas con un espacio muerto
+ y estas se devuelven a formar pero de lado negativo asi alternado.
+\end_layout
+
+\begin_layout Itemize
+EFECTO DE LAS INDUCTANCIUAS DE RED SOBRE LA CONMUTACION DE CORRIENTE 
+\end_layout
+
+\begin_layout Standard
+las inductacias que la linea produce una conmutacion de corriente entre
+ diodos cuando el diodo 1, se polariza, el diodo 2 estaria polarizado a
+ la inversa y este esta bloqueado el diodo 1 deja conducir, diodo 2 entra
+ en funcion este mismo provoca la conmutacion entre diodos observamos que
+ hubo perdida de tension debido a la conmutacion de los diodos 
+\end_layout
+
+\begin_layout Section*
+conclusion: 
+\end_layout
+
+\begin_layout Standard
+Se observo que las rectificzadores de corrientes se manejan con con corriente
+ alterna y directa, estos mismos son mmuy importantes para la electronica
+ y la electricidad.
+ estos se dividen en dos en no controlado y controlados estos se menejan
+ como dispositivos semiconductores en la primera practica de RECTIFICADOR
+ DE MEDIA ONDA CARGA INDUCTIVA, estos solo se maneja como circuito sencillo
+ en seri con un diodo este nos genero una onda senoidal, con el diodo y
+ este genero una señal negativa, RECTIFICADOR MONOFASICO DE PUENTE vimos
+ que trabajamos con 164 volts y esta fue nuestro volor Vpp en el generador
+ de señales, las cuales fueron variando debido a las resistencias que colocamos
+ en el circuito, otra cosa observada fue que mientras mayor era la resistencia
+ mayor era nuestra potencia en el circuito.
+ 
+\end_layout
+
+\begin_layout Standard
+RECTIFICADOR MONOFASICO DUPLICARDOR DE TENSION este circuito se trabajo
+ con el mismo del tema anterior y este lo que realizo fue elevar nuestra
+ tension el circuito.
+ EFECTOS DE LOS RECTIFICADORES MONOFASICOS EN LINEAS TRIFASICAS aqui se
+ equilibraron los receptores en partes iguales con positivo y negativo,
+ estos receptores trabajan como monofasicos, otra cosa que observe que las
+ corrientes son nulas pero se vuelve superior a la corriente de linea que
+ ingresa.
+ RECTIFICADORES TRIFASICOS estos fueron trifasicos y esta cuando la potencia
+ era elevada se desequilibraban estos ejemplos se ven en los motores electricos.
+\end_layout
+
+\end_body
+\end_document

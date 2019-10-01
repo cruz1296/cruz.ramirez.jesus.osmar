@@ -1,0 +1,224 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+EV_2_2_EXPLICAR_LOS_ARREGLOS_Y_ PARAMETROS_DE_LOS_AMPLIFICADORES_CLASE_A
+\end_layout
+
+\begin_layout Author
+CRUZ RAMIREZ JESUS OSMAR 
+\end_layout
+
+\begin_layout Standard
+UNIVERSIDAD POLITECNICA DE LA ZONA METROPOLITANA DE GUADALAJARA (UPzmg).
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Estos amplificadores son de potencia y son solo aplicados en la clase A,
+ cuando tienen una tension de polarizacion y la amplitud de señal de entrada
+ estos poseen valores tales que hace que la corrientede salidas circule
+ durante el periodo de señal de entrada, a veces se requiere para manejar
+ grandes cargas resistivas como el altovoz o para la conduccion de un motor
+ de robot y para este tipo de aplicaciones se necesitan corrientes de conmutacio
+n.
+ 
+\end_layout
+
+\begin_layout Standard
+este tambien es conocido como 
+\begin_inset Quotes eld
+\end_inset
+
+AMPLIFICADOR SEÑAL GRANDE
+\begin_inset Quotes erd
+\end_inset
+
+, la principal funcion de este es suministrar potencia que el producto es
+ voltaje y corriente de carga, los amplificadores de potencia tambien son
+ amplificadores de tension con diferencia que la resistencia de carga conectada
+ a la salida es relativamente baja.
+ debido a estas corrientes de carga, los transistores de salida son utilizados
+ para las etapas de salida del amplificador de potencia, el 2N3055 estos
+ necesitan tener mayores niveles de tension y potencia que generalmente
+ son utilizados para amplificar señales pequeñas como el BC107.
+ 
+\end_layout
+
+\begin_layout Standard
+las principales desventajas de los amplifcadores de potencia y especialmente
+ del amplificador de clase A, es la eficiencia de conversion generalmente
+ es demasiada baja ya que las grandes corrientes significan que se pierden
+ una cantidad considerable de energia en forma de calor.
+ 
+\end_layout
+
+\begin_layout Standard
+el amplificador de potencia es el amplificaor de clase A esta es la forma
+ mas simple de amplificar la potencia que utiliza el transistor de conmutacion
+ en la configuracion del circuito emisor comun estandar como se ah visto
+ anteriormente para producir una salida invertida, este viene siendo el
+ modo de funcionamiento ideal ya que no ahi distorsion de cruce o desconexion
+ a la forma de onda de salida incluso incluyendo la mitad del ciclo negativo,
+ las etapas de salida del amplificador de clase A se pueden usar un unico
+ transistor de potencia o pares de transistores conectados entre si para
+ compartir la corriente de carga alta.
+ 
+\end_layout
+
+\begin_layout Itemize
+CIRCUITO AMPLIFICADOR DE UNA SOLA ETAPA 
+\end_layout
+
+\begin_layout Standard
+En estos se utiliza un transistor de extremo unico para su etapa de salida
+ con carga reistiva conectada directamente al terminal del colector, cuando
+ el transistor enciende, este unde la corriente de salida a traves del colector,
+ lo que da por resultado es la caida de voltaje inevitable atravez del colector,
+ el resultado es una caida de voltaje inevitable atravez de la resistencia
+ del emisor, limitando la salida negativa.
+ la eficacia de este tipo de circuitos es demasiado baja y ofrece pequeñas
+ salidas de potencia para un gran drenaje en una fuente de alimentacion
+ de de CC.
+\end_layout
+
+\begin_layout Itemize
+CONFIGURACION DEÑL TRANSISTOR DE DARLIGTON 
+\end_layout
+
+\begin_layout Standard
+La ganancia de corriente total de betao el valor de HFE de un dispositivo
+ de darligton es el productode dos ganacias individuales de los transistores
+ multiplicados juntos y valores de beta muy elevados junto con altas corrientes
+ del colector son posibles en comparacion con un solo circuito de transistor,
+ para mejorar la eficiencia total de potencia del amplificador de clase
+ A, es posible diseñar el circuito con un transformador conectado directamente
+ al circuito colector para formar un circuito colector para formar un circuito
+ llamado amplificador acoplado al transformador.
+\end_layout
+
+\begin_layout Itemize
+CIRCUITO AMPLIFICADOR ACOPLADO A UN TRANSFORMADOR 
+\end_layout
+
+\begin_layout Standard
+Como la corriente del colector, se reduce por debajo del punto Q quieto
+ y establecido por la tension de polarizacion basica, debido a las variaciones
+ en la corriente basicas, derivado de las derivaciones en la corriente de
+ la base, el flujo magnetico en el nucleo del transformador se colapsa causando
+ una fem inducida en los devanados primarios del transformador, esto provoca
+ una tension instantanea del colector aumentea un valor del doble de la
+ tension de alimentacion de 2 Vcc, lo que da una corriente de colector maxima
+ de dos veces cuando el voltaje del colector esta es su minimo, el aamplifucador
+ de clase A mediante el uso de dos transistores complementarios en la etapa
+ de salida con un transistor de tipo NPN O N-channel, mientras que el transistor
+ PNP O P-channel tipo conectado en lo que se llama configuracion 
+\begin_inset Quotes eld
+\end_inset
+
+push-pull
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+REFERENCIA BIBLIOGRAFICA: 
+\end_layout
+
+\begin_layout Standard
+https://tutoriasdeelectronicabasica.blogspot.com
+\end_layout
+
+\end_body
+\end_document

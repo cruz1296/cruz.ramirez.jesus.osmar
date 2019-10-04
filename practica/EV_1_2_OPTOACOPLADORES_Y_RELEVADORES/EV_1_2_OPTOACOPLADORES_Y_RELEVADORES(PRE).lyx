@@ -1,0 +1,309 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+EV_1_2_OPTOACOPLADORES_Y_RELEVADORES
+\end_layout
+
+\begin_layout Itemize
+CRUZ RAMIREZ JESUS OSMAR 
+\end_layout
+
+\begin_layout Itemize
+PARTIDA LOPEZ ERNESTO ALONSO 
+\end_layout
+
+\begin_layout Address
+UNIVERSIDAD POLITECNICA DE LA ZONA METROPOLITANA DE GUADALAJARA (UPzmg).
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+INTRODUCCION: 
+\end_layout
+
+\begin_layout Standard
+Optoacoplador conocido como optoaislador o aislador acoplado opticamente
+ que es dispositivo de emision y recepcion que funciona como interruptor
+ activos mediante luz emitida por diodo led que satura al componente optoelectro
+nico.
+ relevador dispositivo electromagnetico que funciona como interruptor controlado
+ por el circuito controlado electronicamente, esto por medio de bobina y
+ electroiman, este enciende un juego que permite abrir o cerrar otros circuitos
+ electronicosindependientes, el PLC son utilizados en la industria diseñados
+ para multiples señales de entrada y salidas, rangos de temperatura ampliados,
+ inmunidad al ruido electrico, resistentes a la vibracion y al impacto y
+ estos vienen siendo sistemas de tiempo real.
+ 
+\end_layout
+
+\begin_layout Itemize
+OBJETIVO 
+\end_layout
+
+\begin_layout Standard
+Armado del pototipado de una PLC, con placas de arduino con cuatro placas
+ de esta misma para observar el funcionamiento real de un PLC registrando
+ salidas de voltaje de 5 V.
+ y 12 V.
+ en cada salida de nuestro circuito.
+ 
+\end_layout
+
+\begin_layout Itemize
+MARCO TEORICO 
+\end_layout
+
+\begin_layout Standard
+PLC es componente basico en el mundo de automatizaciones industriales.
+ las aplicaciones industriales hizo que el sistema PLC fueran costosos,
+ para el comprar o reparar, arduino es especie de controlador programable
+ universal, aunque es solo nucleo en cualquier cosa, en todo caso construyendo
+ aplicaciones generales, con un hardware externo, especialmente las interfaces
+ capaces de transferir señales a sensores con direccion a los actuadores
+ asi reduciendo la EMI que dañe el microcontrolador, el software el mas
+ adecuado puede ser y todo esto viene siendo algo similar al PLC.
+ 
+\end_layout
+
+\begin_layout Itemize
+MATERIALES 
+\end_layout
+
+\begin_layout Enumerate
+PROTOBOARD.
+\end_layout
+
+\begin_layout Enumerate
+PLACA DE ARDUINO.
+\end_layout
+
+\begin_layout Enumerate
+TRES RELEVADORES 
+\end_layout
+
+\begin_layout Enumerate
+RESISTENCIAS (DE LOS VALORES CALCULADOS).
+\end_layout
+
+\begin_layout Enumerate
+OPTOACOPLADORES.
+\end_layout
+
+\begin_layout Enumerate
+UN 2N2222A.
+\end_layout
+
+\begin_layout Enumerate
+2 FUENTES DE VOLTAJE.
+\end_layout
+
+\begin_layout Enumerate
+4 LEDS.
+\end_layout
+
+\begin_layout Enumerate
+4 PUSH BUTTON.
+\end_layout
+
+\begin_layout Enumerate
+CABLE PARA PROTOBOARD.
+\end_layout
+
+\begin_layout Enumerate
+CAIMANES.
+\end_layout
+
+\begin_layout Itemize
+DESARROLLO 
+\end_layout
+
+\begin_layout Standard
+Procedimos armar el circuito como se muestra en la imangen 1.
+ que se encuentra en la carpeta de este documento, 
+\end_layout
+
+\begin_layout Standard
+como observamos ahi dos resistencias sin saber su valor es varioable debido
+ al L1823, que este corriente soporte, procedimos a aplicar la ley de ohm
+ que es R = V/I, la corrientees la cual es 80mA.
+ nuestro voltaje es el marcado en el circuito, el resultado fue de 150 ohms.
+ por desicion decidimos colocar una resistencia de 220 ohms.
+ para evitar sobre calentamiento en la resistencia o que dañe alguno de
+ nuestros componentes.
+\end_layout
+
+\begin_layout Standard
+despues procedimos a medir nuestro 2N2222A ya que este cambia su valor de
+ HFE, debido para como muestra el datashep ya conociendo este resultado
+ medido procedemos a calcular el valor de nuestra resistencia con la siguiente
+ operacion R = (Vin - 0.6)(HFE)/ A.
+ el resultado de nuestra operacion fue de 3950 ohms lo cual equivale a una
+ resistencia de 4 k.
+ y todo esto va conectado a la tierra y este paso a las entradas de la bobinas
+ posteriormente se conectaron en paralelo dos diodos y una resistencia la
+ cual este fue un led para verificar la cantidad luminosa que este generaba.
+ procedimos a colocar los cables machos al aire para esperar el codigo de
+ compilacion que tendrianuestro arduino, para la verifacacion de este en
+ la interfaz de entrada se tiene que registra 12 V.
+ en la salida de 5 V.
+ y que nuestro relevador haga un pequeño sonido de click y con esto sabremos
+ que todo quedo bien colocado en nuestro protoboard, con quede el resultado
+ de estos voltajes de 12 V.
+ y 5 V.
+ seria nuestro resultados que esperamos obtener
+\end_layout
+
+\begin_layout Itemize
+RESULTADOS 
+\end_layout
+
+\begin_layout Standard
+Esta fue nuestra primera operacion para calcular el primer valor de nuestra
+ resistencia que viene despues del push button: 
+\end_layout
+
+\begin_layout Standard
+R = 12 V/ 80mA = 150 ohm 
+\end_layout
+
+\begin_layout Standard
+la segunda operacion para calcular nuestra segunda resistencia que esta
+ colocada en la salida de nuestro arduino utilizamos la siguiente operacion:
+ 
+\end_layout
+
+\begin_layout Standard
+R = (Vin - 0.6) (HFE)/12 A.
+\end_layout
+
+\begin_layout Standard
+El HFE lo obtuvimos mediante la medidcion del 2N2222A.
+ en un multimetro con entrada para la medicion de transistores.
+ asi fue como conocimos el valor de nuestro 2N2222A.
+ 
+\end_layout
+
+\begin_layout Standard
+el cual fue nuestra operacion: R= (12 v - 0.6)(250 HFE) / 12 A= 3950 ohms.
+ 
+\end_layout
+
+\begin_layout Itemize
+CONCLUSION 
+\end_layout
+
+\begin_layout Standard
+Los diseños de PLC son algo muy compkejos para el tamaño fisico que es incluso
+ lo muy costoso que son, dentro de la industria, mas que nada por las acciones
+ que realizan que estos pueden ser programables nuevamente, nuestro proposito
+ fue conocer como las estructuras y componentes que ocupamos para construir
+ un PLC.
+ su funcion es la practica en solos contener y controlar las salidas y entradas
+ de voltaje que hace este trabajo de controlar los voltajes.
+ 
+\end_layout
+
+\begin_layout Itemize
+BIBLIOGRAFIA 
+\end_layout
+
+\begin_layout Standard
+https://racedores.com (marco teorico)
+\end_layout
+
+\begin_layout Standard
+https://wikipedia (introduccion)
+\end_layout
+
+\end_body
+\end_document

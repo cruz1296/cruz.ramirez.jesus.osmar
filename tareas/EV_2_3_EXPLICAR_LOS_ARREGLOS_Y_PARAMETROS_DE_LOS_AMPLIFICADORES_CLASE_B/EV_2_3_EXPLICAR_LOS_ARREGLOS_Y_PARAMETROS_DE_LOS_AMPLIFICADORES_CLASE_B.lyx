@@ -1,0 +1,172 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+EV_2_3_EXPLICAR_LOS_ARREGLOS_Y_PARAMETROS_DE_LOS_AMPLIFICADORES_CLASE_B
+ 
+\end_layout
+
+\begin_layout Author
+CRUZ RAMIREZ JESUS OSMAR 
+\end_layout
+
+\begin_layout Address
+UNIVERSIDAD POLITECNICA DE LA ZONA METROPOLITANA DE GUADALAJARA (UPzmg).
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Estos son caracrterizados por la intensidad nula que va atravezde los transistor
+es cuando no ahi señal en las entradas de los circuitosy el reposo del consumo
+ es nulo.
+ a estos se les denomina amplificadores clase B, cuano el voltaje de polarizacio
+n la maxima amplitud de señal de entrada estas poseen valores que provocan
+ que la corriente de salida circule durante el semiciclo de seañl de entrada,
+ las caracteristicas principales y estos amplificadores son de alto factor
+ de ampliacion.
+ 
+\end_layout
+
+\begin_layout Standard
+en estos se montan transistores que trabajen en contrafase estos para minimizar
+ los armonicos que este genera los montajes, cuando estos se polarizan de
+ corriente directa del transistor casi apagado y este se enciende cuando
+ se le aplique una señal de corriente alterna es decir, que estos solo conducira
+n corriente con la mitad de del ciclo de señal, para obtener la señal de
+ ciclo completo se tienen que utilizar dos transistores y cada uno de estos
+ logra que se conduzcan dos señales una de lado positivo y la otra negativa.
+ en un circuito con este tipo de amplificadores es que las señales de entradas
+ del amplificador puedan ser solo una señal que proporciona el circuito
+ en dos etapas de salidas diferentes las cuales cada una opera durante una
+ mitad del ciclo hy estas se pueden emplear en dos etapas similares de las
+ cuales cada una opera sobre el ciclo alterno debido a la señal de entrada
+ para la inversion de polaridad o de las fases mediante el uso de transformadore
+s, entre los que son muy populares desde hace mucho tiempo el amplificador
+ acoplado al transformador tambien puede ser posible obtenerla con polaridades
+ opuestas al utilizar una sola entrada y transistores complementarios, las
+ ventajas de estos es que poseen bajo consumo en reposo, aprovechan al maximo
+ la corriente entragada por la fuente, la intensidad casi nula cuando esten
+ en reposo, las desventajas de estos es que son armonicos y cuando no tienen
+ transistores de salida con las mismas caracteristicas tecnicas por esto
+ se suele polarizar de forma que se introduce una ligera polarizacion.
+ 
+\end_layout
+
+\begin_layout Standard
+para esto no exite polarizacion en amplificador en clase B contra la fase
+ de cada transistor esta en corte cuando estos no tienen señal de entrada,
+ el resultado da como ventaja que no ahi consumo de corriente y esta señal
+ es cero, la maxima eficiencia de estos amplificadores de clase B en contrafase
+ es de 78.5%, por lo que el amplificador en clase B en contrafase se utilizan
+ mas comunmente como etapa de salida que un amplificador de clase A.
+ 
+\end_layout
+
+\begin_layout Standard
+REFERENCIA BIBLIOGRAFICA
+\end_layout
+
+\begin_layout Standard
+https://www.ecured.cu/Amplificador_Clase_B 
+\end_layout
+
+\begin_layout Standard
+https://unicrom.com/amplificadores-clase-b-generalidades
+\end_layout
+
+\begin_layout Standard
+https://www.monografias.com/trabajos89/amplificador-potencia-clase-b/amplificador..
+\end_layout
+
+\end_body
+\end_document

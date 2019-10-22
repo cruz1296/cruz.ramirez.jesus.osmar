@@ -1,0 +1,160 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+EV_2_7_DISEÑO_DE_UNA_MODULACION_DE_ANCHO_DE_PULSO_(PWM)_CON_AMP-OPV_TRANSISTORES
+ 
+\end_layout
+
+\begin_layout Date
+22/octubre/2019
+\end_layout
+
+\begin_layout Author
+CRUZ RAMIREZ JESUS OSMAR
+\end_layout
+
+\begin_layout Address
+UNIVERSIDAD POLITECNICA DE LA ZONA METROPOLITANA DE GUADALAJARA (UPzmg)
+ 
+\end_layout
+
+\begin_layout Standard
+la modulacion de ancho de pulsos, es tambien conocido como PWM, la cual
+ esta signifca en sus siglas en ingles que es 
+\begin_inset Quotes eld
+\end_inset
+
+pulse-width modulation
+\begin_inset Quotes erd
+\end_inset
+
+ estos son señales o fuentes de energia la cual esta es una tecnica de modificac
+ion del ciclo de trabajo de una señal periodica ya sea cuadrada o senoidal
+ en estos ejemplos, lo cual es para transmitor informacion a traves del
+ canal de comunicaciones o para controlar la cantidad de energia que envia
+ la carga.
+ lo tipico de estos circuitos genera posibilidades que se encuentren interferenc
+ias producidas por radiofrecuencia las cuales estas son minimas sabiendo
+ ubicar correctamente el controlador cerca de la carga y realizando un colado
+ de de energia de una fuente de alimentacion.
+ en las aplicaciones encontramos demasiados circuitos integrados en los
+ cuales se utiliza la modulacion del PWM, y en otros particularmente para
+ lograr que funcionen circuitos que puedan ser usados en fuentes conmutadas,
+ controladores de motores, controles de elementos termoelectricos, choppers
+ para sensores lugares con demasiado ruido y entre otros.
+ los cuales estos son construidos por las compañias como vienen siendo texas
+ instruments, national semiconductor, maxim y entre otras.
+ su funcionalidad es con un interruptor que constantemente se activa y desactiva
+ asi mismo regulando la corriente y la potencia que va hacia el dispositivo
+ que se va a controlar estos son motores de corriente continua o fuentes
+ de luz en corriente continua un ejemplo si el motor es alimentado con 12
+ volts y recibe corriente constantemente y entrega la maxima potencia en
+ el PWM el motor recibe racibe corriente por un lapso de tiempo y es te
+ se detieney todo este proceso es continuo 
+\end_layout
+
+\begin_layout Standard
+en la parte de los motores esto es utilizado con regularidad a la velocidad
+ de giro de los motores electricos de induccion o asincronos lo cual es
+ constante y este no provoca un desaprovechamiento de energia electrica
+ este puede ser utilizado en corriente continua corriente alterna en estos
+ tienen un momento alto lo cual es encendido o alimentacion, el momento
+ bajo es apagado o desconectado, controlado por relevadores es baja frecuancia,
+ el mosfet o tiristores es alta frecuancia.
+ ya en otros sistemas pafra regular la velocidad estos modifican la tension
+ electrica lo cual hace que disminuya junto con el motor o obstruyen la
+ resistencia electrica lo cual provoca que pierda energia en forma de calor
+ en esta resistencia, otra forma de rgualr los giros de los motores variando
+ los tiempos de pulso a esto se le conoce como como modulacion por frecuencias
+ de pulsos, en el caso de los motores de corriente alterna se puede utilizar
+ en variacion de frecuancias, las modulaciones de estos anchos de pulso
+ tambien puenden llevar servomotores , estos hacen que modifiquen la posicion
+ dependiando del ancho del pulso enviado en el periodo que dependa de cada
+ servo motor.
+ todo esta informacion puede ser enviada utilizando un microprocesador Z80
+ o microcontroladores, este tambien puede comunicarse con formas analogicas
+ o con sitemas digtales para este sistema es demasiado facil medir la duracion
+ de una onda cuadrada, este no tiene el conversor analogico digital lo cual
+ no se puede obtener informacion del valor analogico, ya que se puede detectar
+ si hay tensiones el PWM es un conjunto de oscilaciones digitales, un contador
+ y puerta AND esta como puerta de paso.
+ 
+\end_layout
+
+\end_body
+\end_document

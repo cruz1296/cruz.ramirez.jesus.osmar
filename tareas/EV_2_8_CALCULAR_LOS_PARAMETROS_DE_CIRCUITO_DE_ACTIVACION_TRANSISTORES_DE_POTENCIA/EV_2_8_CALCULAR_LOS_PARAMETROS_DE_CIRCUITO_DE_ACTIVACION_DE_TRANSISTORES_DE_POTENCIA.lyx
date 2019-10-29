@@ -1,0 +1,232 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+EV_2_8_CALCULAR_LOS_PARAMETROS_DE_CIRCUITOS_DE_ACTIVACION_DE_TRANSISTORES_DE_POT
+ENCIA
+\end_layout
+
+\begin_layout Author
+CRUZ RAMIREZ JESUS OSMAR 
+\end_layout
+
+\begin_layout Date
+29/OCTUBRE/19
+\end_layout
+
+\begin_layout Address
+UNIVERSIDAD POLITECNICA DE LA ZONA METROPOLITANA DE GUADALAJARA (UPzmg).
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+/new page
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Cuando el transistor es utilizado en un circuito, este dependera de las
+ curvas que lo caracterizan.
+ estos diagramas que se presentan en las hojas de datos de los transistores
+ estos van representando la transferencia de corriente del colector en contra
+ del voltaje del colector que va hacia el emisor, cuando estos transistores
+ son utilizados como amplificadores, el punto de operacion este debe estar
+ ubicado sobre las lineas de funciones de transferencia que activira.
+ cuando el transistor es utilizado como switch, la corriente de base debe
+ tener un valor para que el transistor entre en corte y para que pase a
+ saturacion.
+ 
+\end_layout
+
+\begin_layout Itemize
+Los transistores de corte tienen una corriente de colector minima y un voltaje
+ de colector hacia el emisor maximo.
+ 
+\end_layout
+
+\begin_layout Itemize
+Los transisitores de saturacion tienen la corriente de colector maxima y
+ voltaje del colector hacia el emisor casi nulo.
+ 
+\end_layout
+
+\begin_layout Standard
+para hacer que un transistor entre en corte, el valor de corriente de base
+ debera calcularse dependiendo de la carga con la que vaya a funcionar.
+ observaremos el siguiente imagen 2.0, por este debe circular una corriente
+ la cual circulara por el transistor y todo esto depende de la corriente
+ base, la cual debe ser muy grande para que el transistor entre en saturacion
+ y este permita el paso de corriente como se observa en la imagen 2.1, lo
+ cual este debe pasar aun por un interruptor lo cual todo esto esta controlado
+ por una resistencia.
+ ahora veremos la siguiente manera de como realizar estos calculos.
+\end_layout
+
+\begin_layout Itemize
+Primero debemos calcular la corriente de base.
+ 
+\end_layout
+
+\begin_layout Standard
+Lb = Lc / Hfe(min) 
+\end_layout
+
+\begin_layout Itemize
+Este Hfe se encuentra en la hoja de datos de nuestro transistor, despues
+ pasaremos a calcular la resistencia utilizando la siguiente formula 
+\end_layout
+
+\begin_layout Standard
+Rb = V / Lb 
+\end_layout
+
+\begin_layout Itemize
+Para calcular el voltaje es la sguiente formula 
+\end_layout
+
+\begin_layout Standard
+V = Vt - 0.7 
+\end_layout
+
+\begin_layout Standard
+el 0.7 es nuestro valor de caida de voltaje de nuestro transistor.
+ 
+\end_layout
+
+\begin_layout Standard
+para que quede mejor explicado estas formulas, procederemos a resolver un
+ ejemplo.
+ 
+\end_layout
+
+\begin_layout Standard
+para resolver nuestra primera formula utilizaremos una iluminaria la cual
+ sera un led de automovil lo cual consume 0.995 ampers lo cual viene siendo
+ un ampers, para saber nuestro Hfe procederemos a buscar en la hoja de datos
+ del transistor como se muestra en la imagen 2.2, que utilizaremos para la
+ cual en este ejemplo utilizaremos un Tip 31c, lo cual viene siendo de 20,
+ queda de la siguiente forma: 
+\end_layout
+
+\begin_layout Standard
+Lb = .950 A / 20 Hfe = 0.0475 A
+\end_layout
+
+\begin_layout Standard
+procederemos a calcular el valor de voltaje el cual sera de 12 volts, queda
+ de la siguiente forma: 
+\end_layout
+
+\begin_layout Standard
+V = 12 - 0.7 = 11.3 V
+\end_layout
+
+\begin_layout Standard
+estos resultados nos sirvira para calcular el valor de nuestra resistencia
+ y quedara de la siguiente forma: 
+\end_layout
+
+\begin_layout Standard
+Rb = 11.3 V / 0.0475 A = 238 ohms 
+\end_layout
+
+\begin_layout Standard
+asi se calcula para encontrar la corriente y resistencia que utilizaremos.
+ 
+\end_layout
+
+\begin_layout Standard
+las siguientes razones por la cual se utiliza es para casos de tener un
+ motor mas grande en cuestiones de potencia se ocupara un interruptor mas
+ grande lo cual estos son muy costosos, en cambio si usamos un transistor
+ este puede puede ser pequeño el interruptor lo cual estos son mas economicos.
+ otra razon es que son medidas de seguridad debido a que esto no es lo mismo
+ usar interruptor pequeño en un circuito de alta potencia y voltaje en un
+ circuito de baja potencia y voltaje.
+ 
+\end_layout
+
+\end_body
+\end_document

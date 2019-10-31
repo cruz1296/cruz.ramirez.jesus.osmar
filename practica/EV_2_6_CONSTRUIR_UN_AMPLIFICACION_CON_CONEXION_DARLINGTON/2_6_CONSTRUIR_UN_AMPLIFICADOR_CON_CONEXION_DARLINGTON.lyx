@@ -1,0 +1,225 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+2_6_CONSTRUIR_UN_AMPLIFICADOR_CON_CONEXION_DARLINGTON 
+\end_layout
+
+\begin_layout Itemize
+Partida lopez ernesto alonso 
+\end_layout
+
+\begin_layout Itemize
+Cruz ramirez jesus osmar 
+\end_layout
+
+\begin_layout Address
+UNIVERSIDAD POLITECNICA DE LA ZONA METROPOLITANA DE GUADALAJARA (UPzmg)
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+/new page
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+El amplificador de darligton es un tipo de transistor especial que tiene
+ a ganar una alta ganacia de corriente.
+ esta compuesto internamente por los transistores bipolares que se conectan
+ en cascada.
+ el tranistor de darligton en laa estructura interna entrega corriente que
+ sale por el emisor de la base del transistor para calcular su ganancia
+ es IE = B * IB (1).
+ 
+\end_layout
+
+\begin_layout Standard
+Entoncesal analizar el grafico 
+\end_layout
+
+\begin_layout Itemize
+ecuacion del primer transistor es: IE1 = B1 * IB1 (1)
+\end_layout
+
+\begin_layout Itemize
+Ecuacion del segundo transistor es: IE2 = B2 * IB2 (2)
+\end_layout
+
+\begin_layout Itemize
+Observando el grafico, la corriente de emisor del transistor (T1) es la
+ misma que la corriente de base del transisitor T2.
+ entonces IE1 = IB2 (3)
+\end_layout
+
+\begin_layout Itemize
+Entonces utilizando la ecuacion (2) y la ecuacion (3) se obtiene: IE2 =
+ B2 * IB2 = B2 * IE1 
+\end_layout
+
+\begin_layout Itemize
+Reemplazando en la ecuacion anterior el valor de IE1, se obtiene la ecuacion
+ final de ganancia del transistor de darlington.
+ IE2 = B2 * B1 * IB1.
+ 
+\end_layout
+
+\begin_layout Standard
+Como se puede deducir, el amplificador tiene una ganancia mucho mayor que
+ la del transistor de corriente, pues aprovecha la ganancia de los transistores.
+ este se utiliza ampliamente en circuitos donde se ocupe controlar cargas
+ grandes con ciorrientes pequeñas.
+ la principal caracrteristica de conexion de darligton es que el transistor
+ compuesto actua sobre solo una unidad con ganacia en beta de corriente
+ que el producto de ganancias de corriente de dos transistores.
+ 
+\end_layout
+
+\begin_layout Standard
+Materiales 
+\end_layout
+
+\begin_layout Itemize
+led 
+\end_layout
+
+\begin_layout Itemize
+relevador 
+\end_layout
+
+\begin_layout Itemize
+transistor 
+\end_layout
+
+\begin_layout Itemize
+button
+\end_layout
+
+\begin_layout Itemize
+arduino 
+\end_layout
+
+\begin_layout Itemize
+fotecelda 
+\end_layout
+
+\begin_layout Itemize
+cables de proto 
+\end_layout
+
+\begin_layout Itemize
+protoboard 
+\end_layout
+
+\begin_layout Standard
+Proceso 
+\end_layout
+
+\begin_layout Standard
+con lo armado anterirormente de la practica dos haremos una alimentacion
+ de 24 volts sobre la parte del circuito de la pratica siete el cual este
+ consiste en colocar una fotoselda como si fuera un interruptor el cual
+ ira conectado a las patillas de la bobina de nuestro relevador, las patillas
+ del lado de paso de corriente pasara al transistor, restencia y despues
+ pasara al led el cual encendera.
+ cuando nuestra fotocelda se encuentre iluminada en el area de paso de corriente.
+\end_layout
+
+\begin_layout Standard
+Conclusion 
+\end_layout
+
+\begin_layout Standard
+El proceso de armado estuvo complejo ya que nos costo trabajo en encontrar
+ el valor de resistencia a usar para hacer una conexion de nuestro circuito
+ de darlington.
+ el como usar correctamente las conexiones de darlington usando una fotocelda
+ como tipo interruptor debido a si se encontrava una cantidad considerable
+ de iluminacion sobre este ultimo haci encendiendo nuestro relevador y led.
+ 
+\end_layout
+
+\end_body
+\end_document

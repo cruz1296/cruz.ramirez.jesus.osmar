@@ -1,0 +1,233 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Transistor_BJT:2N2219 Q1
+U 1 1 5DC23657
+P 2900 1850
+F 0 "Q1" H 3090 1896 50  0000 L CNN
+F 1 "2N2219" H 3090 1805 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-39-3" H 3100 1775 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 2900 1850 50  0001 L CNN
+	1    2900 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N2219 Q2
+U 1 1 5DC23EE4
+P 2900 2600
+F 0 "Q2" H 3090 2646 50  0000 L CNN
+F 1 "2N2219" H 3090 2555 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-39-3" H 3100 2525 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 2900 2600 50  0001 L CNN
+	1    2900 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N2219 Q3
+U 1 1 5DC2443B
+P 4900 1750
+F 0 "Q3" H 5090 1796 50  0000 L CNN
+F 1 "2N2219" H 5090 1705 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-39-3" H 5100 1675 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 4900 1750 50  0001 L CNN
+	1    4900 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N2219 Q4
+U 1 1 5DC24AE6
+P 4900 2400
+F 0 "Q4" H 5090 2446 50  0000 L CNN
+F 1 "2N2219" H 5090 2355 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-39-3" H 5100 2325 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 4900 2400 50  0001 L CNN
+	1    4900 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 1550 3000 1650
+Wire Wire Line
+	3000 2050 3000 2250
+Wire Wire Line
+	5000 2800 5000 2600
+$Comp
+L Device:R R3
+U 1 1 5DC25499
+P 4700 1900
+F 0 "R3" H 4770 1946 50  0000 L CNN
+F 1 "R" H 4770 1855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4630 1900 50  0001 C CNN
+F 3 "~" H 4700 1900 50  0001 C CNN
+	1    4700 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5DC257DA
+P 4700 2550
+F 0 "R4" H 4770 2596 50  0000 L CNN
+F 1 "R" H 4770 2505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4630 2550 50  0001 C CNN
+F 3 "~" H 4700 2550 50  0001 C CNN
+	1    4700 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5DC2597B
+P 2700 2000
+F 0 "R1" H 2770 2046 50  0000 L CNN
+F 1 "R" H 2770 1955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2630 2000 50  0001 C CNN
+F 3 "~" H 2700 2000 50  0001 C CNN
+	1    2700 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5DC25E96
+P 2700 2750
+F 0 "R2" H 2770 2796 50  0000 L CNN
+F 1 "R" H 2770 2705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2630 2750 50  0001 C CNN
+F 3 "~" H 2700 2750 50  0001 C CNN
+	1    2700 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 1550 3300 1550
+Wire Wire Line
+	2700 2150 2850 2150
+Wire Wire Line
+	4450 2150 4450 2700
+Wire Wire Line
+	4350 2900 4350 2050
+Wire Wire Line
+	4350 2050 4700 2050
+Wire Wire Line
+	2700 2900 2900 2900
+$Comp
+L Switch:SW_SPST SW1
+U 1 1 5DC2BD98
+P 1700 1400
+F 0 "SW1" H 1700 1635 50  0000 C CNN
+F 1 "SW_SPST" H 1700 1544 50  0000 C CNN
+F 2 "Button_Switch_THT:Push_E-Switch_KS01Q01" H 1700 1400 50  0001 C CNN
+F 3 "~" H 1700 1400 50  0001 C CNN
+	1    1700 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SW2
+U 1 1 5DC2FA6B
+P 2150 1850
+F 0 "SW2" H 2150 2135 50  0000 C CNN
+F 1 "SW_SPDT" H 2150 2044 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPDT_CK-JS102011SAQN" H 2150 1850 50  0001 C CNN
+F 3 "~" H 2150 1850 50  0001 C CNN
+	1    2150 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 1850 1950 1400
+Wire Wire Line
+	1900 1400 1950 1400
+Connection ~ 1950 1400
+Wire Wire Line
+	3300 1400 3300 1550
+Wire Wire Line
+	1950 1400 3300 1400
+Connection ~ 3300 1550
+Wire Wire Line
+	3300 1550 5000 1550
+Wire Wire Line
+	2350 1750 2550 1750
+Wire Wire Line
+	2550 1750 2550 2200
+Wire Wire Line
+	2550 2200 2850 2200
+Wire Wire Line
+	2850 2200 2850 2150
+Connection ~ 2850 2150
+Wire Wire Line
+	2850 2150 4450 2150
+Wire Wire Line
+	2350 1950 2350 3150
+Wire Wire Line
+	2350 3150 2900 3150
+Wire Wire Line
+	2900 3150 2900 2900
+Connection ~ 2900 2900
+Wire Wire Line
+	2900 2900 4350 2900
+$Comp
+L Motor:Motor_DC M1
+U 1 1 5DC32158
+P 5750 2400
+F 0 "M1" H 5908 2396 50  0000 L CNN
+F 1 "Motor_DC" H 5908 2305 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 5750 2310 50  0001 C CNN
+F 3 "~" H 5750 2310 50  0001 C CNN
+	1    5750 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 2700 3400 2250
+Wire Wire Line
+	3400 2250 3000 2250
+Wire Wire Line
+	3400 2700 4450 2700
+Connection ~ 4450 2700
+Wire Wire Line
+	4450 2700 4700 2700
+Connection ~ 4700 2700
+Wire Wire Line
+	4700 2700 5750 2700
+Connection ~ 3000 2250
+Wire Wire Line
+	3000 2250 3000 2400
+$Comp
+L pspice:VSOURCE V1
+U 1 1 5DC337CF
+P 950 2200
+F 0 "V1" H 1178 2246 50  0000 L CNN
+F 1 "VSOURCE" H 1178 2155 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 950 2200 50  0001 C CNN
+F 3 "~" H 950 2200 50  0001 C CNN
+	1    950  2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  1900 950  1400
+Wire Wire Line
+	950  1400 1500 1400
+Wire Wire Line
+	950  2800 950  2500
+Wire Wire Line
+	950  2800 3000 2800
+Connection ~ 3000 2800
+Wire Wire Line
+	3000 2800 5000 2800
+Wire Wire Line
+	5000 1950 5000 2050
+Wire Wire Line
+	5750 2200 5750 2050
+Wire Wire Line
+	5750 2050 5000 2050
+Connection ~ 5000 2050
+Wire Wire Line
+	5000 2050 5000 2200
+$EndSCHEMATC
